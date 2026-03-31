@@ -1,0 +1,55 @@
+.app {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+.chat-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.user {
+  text-align: left;
+  margin: 5px;
+  background: #d1e7dd;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.assistant {
+  text-align: right;
+  margin: 5px;
+  background: #f8d7da;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.input-box {
+  display: flex;
+  padding: 10px;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 8px;
+}
+
+.input-box button {
+  margin-left: 10px;
+}
